@@ -1,0 +1,13 @@
+body {
+	background-color: #e8a4c1;
+}
+h1, div, p {
+	text-align: center;
+};
+.button {
+	background-color: pink;
+};
+.border {
+	border-style: 10px solid;
+	border-color: #000000;
+}
