@@ -1,13 +1,36 @@
-body {
-	background-color: #e8a4c1;
+#title {
+	display: flex;
+	justify-content: center;
 }
-h1, div, p {
-	text-align: center;
-};
-.button {
-	background-color: pink;
-};
-.border {
-	border-style: 10px solid;
-	border-color: #000000;
+
+#description {
+	display: flex;
+	justify-content: center;
+}
+
+#survey-form {
+	/*background-color: blue;*/
+}
+
+#email {
+
+}
+
+#name {
+	justify-content: center;
+}
+
+#number {
+
+}
+
+#submit-button {
+
+}
+
+
+div {
+	display: flex;
+	justify-content: center;
+
 }

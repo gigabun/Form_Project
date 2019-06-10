@@ -4,14 +4,24 @@
 	<link href = "FormProjectStyle.css" rel = "stylesheet" type = "text/css">
 </head> 
 <body> 
-	<h1 id="title">Please Answer This Question</h1> 
-	<p id="description">This is a short questionaire to collect your information</p>
+	<h1 id="title">Contact</h1> 
+	<p id="description">Please enter your contact information</p>
 		<form id="survey-form">
-			<input type="text" name="contact" id="name">Your name:</input> 
+			<div>	
+				<input type="text" name="contact" id="name" placeholder="NAME" required></input> 
+			</div>	
 			<br> 
-			<input type="text" name="contact" id="email">Enter your email address</input>
+			<div>	
+				<input type="email" name="contact" id="email" placeholder="EMAIL" required=""></input>
+			</div>	
 			<br> 
-			<input type="text" name="contact" id="number">Your Phone Number:</input> 
+			<div>	
+				<input type="text" name="contact" id="number" placeholder="PHONE" maxlength="11"  required></input> 
+			</div>
+			<br>
+			<div>
+				<button type="submit" name="submit" id="submit-button">SUBMIT</button> 
+			</div>
 		</form>
 </body>
 </html>
