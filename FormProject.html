@@ -8,20 +8,42 @@
 	<p id="description">Please enter your contact information</p>
 		<form id="survey-form">
 			<div>	
+				<label for="name">Name</label>
 				<input type="text" name="contact" id="name" placeholder="NAME" required></input> 
 			</div>	
 			<br> 
-			<div>	
+			<div>				
+				<label for="name">Email</label>	
 				<input type="email" name="contact" id="email" placeholder="EMAIL" required=""></input>
 			</div>	
 			<br> 
-			<div>	
+			<div>
+				<label for="name">Number</label>	
 				<input type="text" name="contact" id="number" placeholder="PHONE" maxlength="11"  required></input> 
 			</div>
 			<br>
 			<div>
-				<button type="submit" name="submit" id="submit-button">SUBMIT</button> 
+				<input type="checkbox" name="checkOne">check1</input>
 			</div>
+			<br>
+			<div>
+				<label for="country">Country</label>
+				<select name="country" multiple>
+					<option value="unitedStates">USA</option>
+					<option value="canada">Canada</option>
+					<option value="mexico">Mexico</option>
+					<option value="China">China</option>
+			    </select>
+			</div>
+			<div> 
+				<input type="radio" name="gender">man</input>
+				<input type="radio" name="gender">woman</input>
+			</div>
+			<br>
+			<div>
+				<button type="submit" name="submit" id="submit-button">SUBMIT</button> 
+			</div>			
 		</form>
 </body>
+
 </html>

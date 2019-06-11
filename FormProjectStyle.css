@@ -9,7 +9,10 @@
 }
 
 #survey-form {
-	/*background-color: blue;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 #email {
@@ -17,7 +20,7 @@
 }
 
 #name {
-	justify-content: center;
+
 }
 
 #number {
@@ -29,8 +32,3 @@
 }
 
 
-div {
-	display: flex;
-	justify-content: center;
-
-}
