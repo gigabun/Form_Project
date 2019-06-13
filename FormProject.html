@@ -8,40 +8,55 @@
 	<p id="description">Please enter your contact information</p>
 		<form id="survey-form">
 			<div>	
-				<label for="name">Name</label>
+				<label id="name-label" for="name">Name</label>
 				<input type="text" name="contact" id="name" placeholder="NAME" required></input> 
 			</div>	
 			<br> 
 			<div>				
-				<label for="name">Email</label>	
+				<label id="email-label" for="email">Email</label>	
 				<input type="email" name="contact" id="email" placeholder="EMAIL" required=""></input>
 			</div>	
 			<br> 
 			<div>
-				<label for="name">Number</label>	
-				<input type="text" name="contact" id="number" placeholder="PHONE" maxlength="11"  required></input> 
+				<label id="number-label" for="number">Age</label>	
+				<input type="number" name="contact" id="number" placeholder="AGE" min="5" max="11"  required></input> 
 			</div>
 			<br>
 			<div>
-				<input type="checkbox" name="checkOne">check1</input>
+				<input type="checkbox" name="checkOne" value="checkOne">check1</input>				
+				<input type="checkbox" name="checkOne" value="checkTwo">check2</input>
+				<input type="checkbox" name="checkOne" value="checkThree">check3</input>
+			</div>
+			<br>
+			<div> 
+				<label for="human">Are you human?</label>
+				<input type="radio" name="human" id="yes_human" value="yes">yes</input>
+				<input type="radio" name="human" id="not_human" value="no">no</input>
+				<input type="radio" name="human" id="not_sure" value="idk">idk</input>
 			</div>
 			<br>
 			<div>
 				<label for="country">Country</label>
-				<select name="country" multiple>
+				<select id="dropdown">
 					<option value="unitedStates">USA</option>
 					<option value="canada">Canada</option>
 					<option value="mexico">Mexico</option>
 					<option value="China">China</option>
 			    </select>
 			</div>
+			<br>
 			<div> 
-				<input type="radio" name="gender">man</input>
-				<input type="radio" name="gender">woman</input>
+				<label for="chromosome">What are you?</label>
+				<input type="radio" name="gender" id="male" value="man">man</input>
+				<input type="radio" name="gender" id="female" value="woman">woman</input>
 			</div>
 			<br>
 			<div>
-				<button type="submit" name="submit" id="submit-button">SUBMIT</button> 
+				<textarea rows="5" cols="50" placeholder="Enter Comments"></textarea>
+			</div>
+			<br>
+			<div>
+				<button type="submit" name="submit_button" id="submit">SUBMIT</button> 
 			</div>			
 		</form>
 </body>
