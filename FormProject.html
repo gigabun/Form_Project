@@ -1,25 +1,26 @@
 <DOCTYPE! html> 
+<html>
 <head> 
 	<title>Questions</title> 
 	<link href = "FormProjectStyle.css" rel = "stylesheet" type = "text/css">
 </head> 
-<body> 
+<body id="background-color"> 
 	<h1 id="title">Contact</h1> 
 	<p id="description">Please enter your contact information</p>
 		<form id="survey-form">
 			<div>	
-				<label id="name-label" for="name">Name</label>
+				<!-- <label id="name-label" for="name">Name</label> -->
 				<input type="text" name="contact" id="name" placeholder="NAME" required></input> 
 			</div>	
 			<br> 
 			<div>				
-				<label id="email-label" for="email">Email</label>	
+				<!-- <label id="email-label" for="email">Email</label>	 -->
 				<input type="email" name="contact" id="email" placeholder="EMAIL" required=""></input>
 			</div>	
 			<br> 
 			<div>
-				<label id="number-label" for="number">Age</label>	
-				<input type="number" name="contact" id="number" placeholder="AGE" min="5" max="11"  required></input> 
+				<!-- <label id="number-label" for="number">Age</label>	 -->
+				<input type="number" name="age" id="age" placeholder="AGE" min="5" max="11"  required></input> 
 			</div>
 			<br>
 			<div>
@@ -37,8 +38,8 @@
 			<br>
 			<div>
 				<label for="country">Country</label>
-				<select id="dropdown">
-					<option value="unitedStates">USA</option>
+				<select id="dropdown;">
+					<option value="unitedStates" id="country">USA</option>
 					<option value="canada">Canada</option>
 					<option value="mexico">Mexico</option>
 					<option value="China">China</option>
@@ -52,7 +53,7 @@
 			</div>
 			<br>
 			<div>
-				<textarea rows="5" cols="50" placeholder="Enter Comments"></textarea>
+				<textarea rows="5" cols="50" placeholder="Enter Comments" id="textbox-color"></textarea>
 			</div>
 			<br>
 			<div>

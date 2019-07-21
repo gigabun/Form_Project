@@ -8,27 +8,73 @@
 	justify-content: center;
 }
 
+#background-color {
+	background-color: #FFDAB9;
+}
+
 #survey-form {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	
+}
+
+#textbox-color {
+	background-color: lightgreen;
+	border-radius: 15px;
+	
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: navy;
+  text-align: center;
 }
 
 #email {
-
+	background-color: #FFB6C1; 
+	border-radius: 80px;
 }
+
+
 
 #name {
+	background-color: thistle;
+	border-radius: 80px;
+}
+
+
+
+#age {
+	background-color: #FFCF86;
+	border-radius: 80px;
+}
+
+
+#country {
+	background-color: #FFFACD;
+	border-radius: 80px;
+}
+
+#submit{
+	width: 100px;
+	padding: 50px 0;
+	line-height: 0;
+	margin: 60px auto;
+	background: #87CEFA;
+	color: white;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 1s ease; 
+}
+
+#submit:hover {
+	background-color: lightslategray;
+	transform: rotate(360deg);
 
 }
 
-#number {
 
-}
 
-#submit-button {
-
-}
 
 
